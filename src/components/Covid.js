@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './covid.css';
+import './Covid.css';
 
 const Covid = () => {
 
@@ -18,7 +18,7 @@ const Covid = () => {
     }
 
     useEffect(() => {
-        // getCovidData();
+        getCovidData();
     }, []);
 
     return (
@@ -84,4 +84,4 @@ const Covid = () => {
     )
 }
 
-export default Covid
+export default Covid;
